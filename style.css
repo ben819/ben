@@ -1,0 +1,66 @@
+.bod{
+    border-style: inset;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Ffr.dreamstime.com%2Farri%25C3%25A8re-plan-abstrait-d%25C3%25A9grad%25C3%25A9-couleurs-vives-style-branch%25C3%25A9-adapt%25C3%25A9-%25C3%25A0-conception-des-m%25C3%25A9dias-sociaux-pages-d-image160177716&psig=AOvVaw2axFOrxXbBVKJeJuVKuJnt&ust=1599919447794000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCPjbw8yi4esCFQAAAAAdAAAAABAD);
+}
+
+.im1{
+    width: 150px;
+    height: 150px;
+    border-radius: 500%;
+    text-align: center;
+}
+
+.bod1{
+    border-style: dotted;
+    background: rgb(233, 149, 119);
+}
+
+
+.tom{
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,120,1) 35%, rgba(0,212,255,1) 100%);
+}
+.bod2{
+    border-style: double;
+    background: rgb(100, 129, 57);
+}
+.inter{
+    text-align: center;
+}
+.calculatrice00{
+    text-align:center;
+}
+.bod3{
+    text-align: center;
+}
+.text1{
+    text-align: center;
+}
+
+.text2{
+    text-align: center;
+}
+.text00{
+    text-align: center;
+}
+
+.text3{
+    
+    text-align: center;
+}
+
+.text4{
+    
+    text-align: center;
+}
+
+.text5{
+    text-align: center;
+}
+
+.text6{
+    text-align: center;
+}

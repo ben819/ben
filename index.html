@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>benito</title>
+    <meta name="description" content="ceci est mon site inernet">
+    <meta name="og:image" content="https://benito.netlify.app/bas.JPG">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <script src=" https://cdn.jsdelivr.net/npm/medium-zoom@1.0.6/dist/medium-zoom.min.js"></script>
+</head>
+
+<body>
+    <div class="bod">
+        <div>
+            <img src="bas.JPG" alt="" class="im1">
+        </div>
+        <br>
+        <div class="bod1" class="row">
+            <div class="animate__animated animate__slower
+            3s animate__infinite	">
+                <h3> bonjour moi c'est benito Houetognon </h3>
+            </div>
+
+        </div>
+        <br>
+        <div class="bod2">
+            <h3> Etudiant en informatique et passionné de numérique </h3>
+        </div>
+    </div>
+    <hr>
+    <div class="calculatrice" style="text-align: center;">
+        <div class="inter">
+            <h4> Decouvrez ma calculatrice intergalactique </h4>
+        </div>
+
+        <div class="calc">
+            <h3><a href="indexcalc.html">voir la calculatrice</a></h3>
+        </div>
+    </div>
+
+    <div class=" tom">
+        <div class="text1">
+            <u><i>
+                    <h3> Découvre les paysages du benin </h3>
+                </i></u>
+        </div>
+
+        <br>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm">
+                    <img src="cr 1.jpg" width="300">
+                </div>
+                <div class="col-sm">
+                    <img src="cr 2.jpg" width="300">
+                </div>
+                <div class="col-sm">
+                    <img src="cr 3.jpg" width="300">
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm">
+                    <img src="image 4.jpg" width="300">
+                </div>
+                <div class="col-sm">
+                    <img src="image 5.jpg" width="300">
+                </div>
+                <div class="col-sm">
+                    <img src="image 6.jpg" width="300">
+                </div>
+            </div>
+        </div>
+
+        <br>
+        <hr>
+        <div class="text2" style="text-align: center;">
+            <u><i>
+                    <h3> L'heure à cotonou et dans tout le pays</h3>
+                </i></u>
+        </div>
+        <div class="text00" style="text-align: center;">
+            <h1>Heure à Cotonou et dans tout le pays</h1>
+            <hr>
+            <div class="text3">
+                <h1 id="heure"> 12:05:02 </h1>
+    
+                <script>
+    
+                    function checkTime(i) {
+                        if (i < 10) {
+                            i = "0" + i;
+                        }
+                        return i;
+                    }
+    
+                    function startTime() {
+                        var day = new Date(); // for now
+                        var hours = day.getHours(); // => 9
+                        var minutes = day.getMinutes(); // =>  30
+                        var secondes = day.getSeconds(); // => 51
+                        // add a zero in front of numbers<10
+                        hours = checkTime(hours)
+                        minutes = checkTime(minutes);
+                        secondes = checkTime(secondes);
+                        var heure_a_afficher = hours + ":" + minutes + ":" + secondes
+                        document.getElementById("heure").innerHTML = heure_a_afficher
+                        t = setTimeout(function () {
+                            startTime()
+                        }, 500); // setTimeout prend deux paramètres: une fonction et un temps estimé en milisecondes. La fonction s'exécute après le temps défini
+                    }
+                    startTime();
+                </script>
+            </div>
+        <br>
+        <hr>
+        <div class="text4">
+            <u><i>
+                    <h3> Contactez Moi</h3>
+                </i></u>
+        </div>
+        <br>
+        <form data-netlify="true" name='form' method="POST"><input type="hidden" name="form-name">
+            <div class="text5">
+                <div width="500px">
+                    <input type="text" name="Nom" placeholder="Nom">
+                </div>
+                <br>
+                <div>
+                    <input type="text" name="Message" placeholder="Message">
+                </div>
+            </div>
+            <br>
+            <div class="text6">
+                <button type="submit" class="btn btn-dark col-3">Envoyer </button>
+            </div>
+            <div class="fixed-bottom" style="text-align: right;">
+
+                <a href="http://wa.me/22967799932" target="blank"><img src="i7.png" alt="" width="100px"> </a>
+            </div>
+        </form>
+        <script>
+            mediumZoom('img');
+        </script>
+    </div>
+</body>
+
+</html>
